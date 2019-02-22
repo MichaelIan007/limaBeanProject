@@ -250,33 +250,33 @@ footer a:hover:after {
     font-size: 1.2em;
     color: #666666;
 }
-.partners-p {
+.grid-p {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1.5em;
     margin: 3em auto;
 }
-.partners-p:hover .partner {
+.partners:hover .partner {
     opacity: 0.7;
 }
-.partners-p .partner {
+.partners .partner {
     transition: opacity 500ms cubic-bezier(0.5, 0, 0.2, 1);
 }
-.partners-p .partner:hover {
+.partners .partner:hover {
     opacity: 1 !important;
 }
-.partners-p .profile {
+.partners .profile {
     position: relative;
     width: fit-content;
     margin: 0 auto;
 }
-.partners-p .profile img {
+.partners .profile img {
     max-width: 100%;
     width: auto;
     height: auto;
     border-radius: 50%;
 }
-.partners-p .profile svg g {
+.partners .profile svg g {
     fill: #fff;
 }
 .ideas {
